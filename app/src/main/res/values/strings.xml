@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Telemedicine</string>
+    <string name="splach_screen_description">The background of the splash screen</string>
 </resources>

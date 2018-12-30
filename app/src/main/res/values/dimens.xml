@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="top_margin_welcome">110dp</dimen>
+    <dimen name="top_margin_dummy">50dp</dimen>
+    <dimen name="text_size">13dp</dimen>
+    <dimen name="top_margin_signup">100dp</dimen>
+    <dimen name="top_margin_login">30dp</dimen>
+    <dimen name="top_margin_urgent">70dp</dimen>
+</resources>

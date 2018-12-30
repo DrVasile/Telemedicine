@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Telemedicine</string>
-    <string name="splach_screen_description">The background of the splash screen</string>
+    <string name="splash_screen_description">The background of the splash screen</string>
+    <string name="welcome">Welcome</string>
+    <string name="dummy_text">  Lorem ipsum dolor sit amet, conse ctetur adipiscing elit, t. Ut enim ad veni am, quis nostrud exercitation ullamco</string>
+    <string name="sign_up">Sign Up</string>
 </resources>

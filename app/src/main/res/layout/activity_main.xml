@@ -16,6 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/top_margin_welcome"
+            android:contentDescription="@string/welcome"
             android:src="@drawable/welcome" />
 
         <TextView
@@ -28,7 +29,7 @@
             android:text="@string/dummy_text"
             android:textAlignment="center"
             android:textColor="@android:color/white"
-            android:textSize="@dimen/text_size"
+            android:textSize="12sp"
             android:textStyle="normal" />
 
         <Button
@@ -50,6 +51,7 @@
             />
 
         <Button
+            android:id="@+id/urgent_button"
             android:layout_width="70dp"
             android:layout_height="13dp"
             android:background="@drawable/urgent"

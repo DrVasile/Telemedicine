@@ -9,5 +9,6 @@
     <string name="title_activity_sign_up">Sign Up</string>
     <string name="add_photos">ADD PHOTOS</string>
     <string name="title_activity_signup">Register</string>
-    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_approved_request">ApprovedRequestActivity</string>
 </resources>

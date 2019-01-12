@@ -39,7 +39,10 @@
         <activity
             android:name=".HomeActivity"
             android:label="@string/title_activity_home"
-            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+            android:theme="@style/TelemedicineThemeMenu" />
+        <activity
+            android:name=".ApprovedRequestActivity"
+            android:label="@string/title_activity_approved_request"></activity>
     </application>
 
 </manifest>

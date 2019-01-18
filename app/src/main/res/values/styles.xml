@@ -22,7 +22,7 @@
         <item name="android:windowBackground">@drawable/launch_screen</item>
     </style>
 
-    <style name="TelemedicineThemeMenu" parent="Base.Theme.AppCompat.Light.DarkActionBar" >
+    <style name="TelemedicineThemeMenu" parent="@style/Theme.AppCompat.Light.NoActionBar" >
         <item name="android:toolbarStyle">@drawable/background</item>
         <item name="android:statusBarColor">@color/colorBackground</item>
         <item name="colorPrimaryDark">@color/colorBackground</item>

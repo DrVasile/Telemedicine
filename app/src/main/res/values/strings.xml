@@ -12,4 +12,5 @@
     <string name="title_activity_signup">Register</string>
     <string name="title_activity_home">Home</string>
     <string name="title_activity_approved_request">Notification</string>
+    <string name="title_activity_login">Login</string>
 </resources>

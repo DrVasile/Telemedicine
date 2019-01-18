@@ -15,36 +15,53 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/TelemedicineTheme">
+
         <activity
             android:name=".MainActivity"
             android:theme="@style/TelemedicineTheme.Launch">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".LoginActivity"
-            android:theme="@style/TelemedicineTheme" />
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/TelemedicineTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+
         <activity
             android:name=".SignupActivity"
-            android:label="@string/title_activity_signup"
             android:parentActivityName=".MainActivity"
             android:theme="@style/TelemedicineThemeMenu">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
+
         <activity
             android:name=".HomeActivity"
-            android:label="@string/title_activity_home"
-            android:theme="@style/TelemedicineThemeMenu" />
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/TelemedicineThemeMenu">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
         <activity
             android:name=".ApprovedRequestActivity"
-            android:theme="@style/TelemedicineThemeMenu"
-            android:label="@string/title_activity_approved_request" />
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/TelemedicineThemeMenu">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeActivity" />
+        </activity>
+
     </application>
 
 </manifest>

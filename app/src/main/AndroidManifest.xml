@@ -42,6 +42,7 @@
             android:theme="@style/TelemedicineThemeMenu" />
         <activity
             android:name=".ApprovedRequestActivity"
+            android:theme="@style/TelemedicineThemeMenu"
             android:label="@string/title_activity_approved_request"></activity>
     </application>
 

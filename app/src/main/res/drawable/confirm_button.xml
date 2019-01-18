@@ -3,11 +3,13 @@
 <!-- The android:opacity=”opaque” line — this is critical in preventing a flash of black as your theme transitions. -->
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:opacity="opaque">
 
-    <item android:drawable="@drawable/circle__1"/>
+    <!-- The background -->
+    <item android:drawable="@drawable/btn__2" />
 
-    <item android:drawable="@drawable/check"
-          android:width="60dp"
-          android:height="50dp"
-          android:gravity="center"/>
+    <!-- The text -->
+    <item>
+        <bitmap android:src="@drawable/confirm"
+            android:gravity="center" />
+    </item>
 
 </layer-list>

@@ -8,40 +8,45 @@
 
     <ScrollView
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:layout_height="fill_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
             android:focusable="true"
-            android:focusableInTouchMode="true">
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="50dp"
-                android:background="@drawable/check_image"/>
+                android:background="@drawable/check_image" />
 
             <TextView
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="40dp"
                 android:layout_gravity="center"
+                android:layout_marginTop="40dp"
                 android:gravity="center"
-                android:textStyle="bold"
+                android:text="Your Request Has Been Approved"
                 android:textSize="16dp"
-                android:text="Your Request Has Been Approved"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:layout_gravity="center"
+                android:layout_marginTop="20dp"
                 android:gravity="center"
-                android:textSize="12dp"
+                android:text="@string/dummy_text"
                 android:textColor="@android:color/secondary_text_dark"
-                android:text="@string/dummy_text"/>
+                android:textSize="12dp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -49,10 +54,10 @@
                 android:layout_marginTop="35dp"
                 android:gravity="left"
                 android:paddingLeft="10dp"
-                android:textStyle="bold"
-                android:textSize="16dp"
+                android:text="Request Details"
                 android:textColor="@color/colorBackground"
-                android:text="Request Details"/>
+                android:textSize="16dp"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -60,8 +65,8 @@
                 android:layout_marginTop="20dp"
                 android:gravity="start"
                 android:paddingLeft="10dp"
-                android:textStyle="bold"
-                android:text="Name"/>
+                android:text="Name"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -69,8 +74,8 @@
                 android:layout_marginTop="5dp"
                 android:gravity="left"
                 android:paddingLeft="10dp"
-                android:textColor="@android:color/secondary_text_dark"
-                android:text="Jojon Suehndra"/>
+                android:text="Jojon Suehndra"
+                android:textColor="@android:color/secondary_text_dark" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -78,8 +83,8 @@
                 android:layout_marginTop="20dp"
                 android:gravity="start"
                 android:paddingLeft="10dp"
-                android:textStyle="bold"
-                android:text="Desease"/>
+                android:text="Desease"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -87,8 +92,8 @@
                 android:layout_marginTop="5dp"
                 android:gravity="left"
                 android:paddingLeft="10dp"
-                android:textColor="@android:color/secondary_text_dark"
-                android:text="Sore Eyes"/>
+                android:text="Sore Eyes"
+                android:textColor="@android:color/secondary_text_dark" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -96,8 +101,8 @@
                 android:layout_marginTop="20dp"
                 android:gravity="start"
                 android:paddingLeft="10dp"
-                android:textStyle="bold"
-                android:text="Location"/>
+                android:text="Location"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -105,8 +110,8 @@
                 android:layout_marginTop="5dp"
                 android:gravity="left"
                 android:paddingLeft="10dp"
-                android:textColor="@android:color/secondary_text_dark"
-                android:text="St. Broxlyn 212"/>
+                android:text="St. Broxlyn 212"
+                android:textColor="@android:color/secondary_text_dark" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -114,8 +119,8 @@
                 android:layout_marginTop="20dp"
                 android:gravity="start"
                 android:paddingLeft="10dp"
-                android:textStyle="bold"
-                android:text="Description"/>
+                android:text="Description"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="250dp"
@@ -123,8 +128,8 @@
                 android:layout_marginTop="5dp"
                 android:gravity="left"
                 android:paddingLeft="10dp"
-                android:textColor="@android:color/secondary_text_dark"
-                android:text="Aku ingin mendjadi setitik awan kecil di langint bersama mentari yaga hah"/>
+                android:text="Aku ingin mendjadi setitik awan kecil di langint bersama mentari yaga hah"
+                android:textColor="@android:color/secondary_text_dark" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -132,10 +137,10 @@
                 android:layout_marginTop="50dp"
                 android:gravity="left"
                 android:paddingLeft="10dp"
-                android:textStyle="bold"
-                android:textSize="16dp"
+                android:text="Doctor"
                 android:textColor="@color/colorBackground"
-                android:text="Doctor"/>
+                android:textSize="16dp"
+                android:textStyle="bold" />
 
             <Button
                 android:layout_width="wrap_content"
@@ -143,8 +148,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
                 android:layout_marginBottom="30dp"
-                android:background="@drawable/confirm_button"
-                />
+                android:background="@drawable/confirm_button" />
 
         </LinearLayout>
     </ScrollView>

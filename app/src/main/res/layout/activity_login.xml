@@ -9,7 +9,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="24dp">
 
         <ImageView
             android:id="@+id/title"
@@ -21,47 +22,51 @@
 
         <EditText
             android:id="@+id/email"
-            android:layout_width="350dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/top_margin_email"
             android:background="@drawable/edit_text"
-            android:drawableLeft="@drawable/email_icon"
+            android:drawableStart="@drawable/email_icon"
             android:drawablePadding="15dp"
-            android:paddingLeft="15dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/email" />
+            android:inputType="textEmailAddress"
+            android:textColorHint="@android:color/white"
+            android:hint="@string/email" />
 
         <EditText
             android:id="@+id/password"
-            android:layout_width="350dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/top_margin_password"
             android:background="@drawable/edit_text"
-            android:drawableLeft="@drawable/password_icon"
+            android:drawableStart="@drawable/password_icon"
             android:drawablePadding="15dp"
-            android:paddingLeft="15dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/password" />
+            android:inputType="textPassword"
+            android:textColorHint="@android:color/white"
+            android:hint="@string/password" />
 
         <Button
+            android:id="@+id/login_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="50dp"
-            android:background="@drawable/reverse_login_button"
-            />
+            android:background="@drawable/reverse_login_button" />
 
         <Button
+            android:id="@+id/signup_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
-            android:background="@drawable/reverse_signup_button"
-            />
+            android:background="@drawable/reverse_signup_button" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

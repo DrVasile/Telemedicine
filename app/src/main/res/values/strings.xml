@@ -6,6 +6,7 @@
     <string name="sign_up">Sign Up</string>
     <string name="email">Email Address</string>
     <string name="password">Password</string>
+    <string name="failed">Login failed!!</string>
     <string name="title_activity_sign_up">Sign Up</string>
     <string name="add_photos">ADD PHOTOS</string>
     <string name="title_activity_signup">Register</string>

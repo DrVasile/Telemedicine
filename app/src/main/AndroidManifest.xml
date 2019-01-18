@@ -6,6 +6,7 @@
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -43,7 +44,7 @@
         <activity
             android:name=".ApprovedRequestActivity"
             android:theme="@style/TelemedicineThemeMenu"
-            android:label="@string/title_activity_approved_request"></activity>
+            android:label="@string/title_activity_approved_request" />
     </application>
 
 </manifest>

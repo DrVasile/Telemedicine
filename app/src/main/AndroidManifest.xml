@@ -18,6 +18,7 @@
 
         <activity
             android:name=".MainActivity"
+            android:label="@string/app_name"
             android:theme="@style/TelemedicineTheme.Launch">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,6 +29,7 @@
 
         <activity
             android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
             android:parentActivityName=".MainActivity"
             android:theme="@style/TelemedicineTheme">
             <meta-data
@@ -37,6 +39,7 @@
 
         <activity
             android:name=".SignupActivity"
+            android:label="@string/title_activity_signup"
             android:parentActivityName=".MainActivity"
             android:theme="@style/TelemedicineThemeMenu">
             <meta-data
@@ -46,6 +49,7 @@
 
         <activity
             android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
             android:parentActivityName=".MainActivity"
             android:theme="@style/TelemedicineThemeMenu">
             <meta-data
@@ -55,6 +59,7 @@
 
         <activity
             android:name=".ApprovedRequestActivity"
+            android:label="@string/title_activity_approved_request"
             android:parentActivityName=".HomeActivity"
             android:theme="@style/TelemedicineThemeMenu">
             <meta-data
